@@ -1,0 +1,595 @@
+
+/* ===== NEXTGEN DMA VENTURES - DARK THEME ===== */
+
+:root {
+    --page-bg: #08131f;
+    --section-bg: #0d1b2a;
+    --card-bg: #102334;
+    --brand-teal: #008b8b;
+    --accent-cyan: #13c4dc;
+    --heading-color: #f8fafc;
+    --body-color: #cbd5e1;
+    --border-color: rgba(19, 196, 220, 0.18);
+}
+
+/* Main website background */
+html,
+body {
+    background-color: var(--page-bg) !important;
+    color: var(--body-color);
+}
+
+/* Main content sections */
+main,
+.tab-content {
+    background-color: var(--page-bg);
+}
+
+/* Replace common white backgrounds */
+.bg-white,
+.bg-slate-50,
+.bg-gray-50,
+.bg-gray-100,
+.bg-slate-100 {
+    background-color: var(--section-bg) !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
+
+/* Paragraphs and normal text */
+p {
+    color: var(--body-color);
+}
+
+/* Cards and content panels */
+.glass-card,
+.method-card,
+.evolution-card {
+    background: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+/* Navbar */
+#navbar {
+    background: rgba(8, 19, 31, 0.94) !important;
+    border-color: var(--border-color) !important;
+}
+
+#navbar .text-slate-900 {
+    color: #f8fafc !important;
+}
+
+#navbar .text-slate-600,
+#navbar .text-slate-700 {
+    color: #cbd5e1 !important;
+}
+
+#navbar .hover\:bg-slate-100:hover {
+    background-color: #152a3b !important;
+}
+
+/* Mobile navigation */
+#mobile-menu {
+    background-color: #0d1b2a !important;
+    border-color: var(--border-color) !important;
+}
+
+.mobile-nav-link {
+    color: #e2e8f0 !important;
+}
+
+/* White content panels and borders */
+.bg-white\/90 {
+    background-color: rgba(8, 19, 31, 0.94) !important;
+}
+
+.border-slate-200,
+.border-slate-100 {
+    border-color: var(--border-color) !important;
+}
+
+/* Input fields */
+input,
+textarea,
+select {
+    background-color: #102334;
+    color: #f8fafc;
+    border-color: #294357;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #94a3b8;
+}
+
+/* Links */
+a {
+    transition: color 0.25s ease;
+}
+
+/* Hero background */
+.hero-bg-gradient {
+    background:
+        radial-gradient(
+            circle at 80% 25%,
+            rgba(19, 196, 220, 0.16),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #08131f 0%,
+            #0d1b2a 55%,
+            #0a3638 100%
+        );
+}
+
+/* Smooth background transition */
+body,
+main,
+.tab-content,
+.methodology-section,
+.evolution-section {
+    transition: background-color 0.3s ease;
+}
+
+/* Accessibility: text selection */
+::selection {
+    background-color: #008b8b;
+    color: #ffffff;
+}
+
+/* ===== NEXTGEN DMA VENTURES LOGO COLOR THEME ===== */
+
+:root {
+    --page-bg: #0D1B2A;
+    --section-bg: #0A202B;
+    --card-bg: #102A35;
+    --dark-teal: #0A3638;
+    --brand-teal: #008B8B;
+    --emerald: #10B981;
+    --heading-color: #F8FAFC;
+    --body-color: #CBD5E1;
+    --border-color: rgba(16, 185, 129, 0.22);
+}
+
+/* Main background */
+html,
+body,
+main,
+.tab-content {
+    background-color: var(--page-bg);
+    color: var(--body-color);
+}
+
+/* White and light sections */
+.bg-white,
+.bg-slate-50,
+.bg-gray-50,
+.bg-gray-100,
+.bg-slate-100 {
+    background-color: var(--section-bg) !important;
+}
+
+/* Navbar */
+#navbar {
+    background: rgba(13, 27, 42, 0.96) !important;
+    border-color: var(--border-color) !important;
+}
+
+#navbar .text-slate-900 {
+    color: var(--heading-color) !important;
+}
+
+#navbar .text-slate-600,
+#navbar .text-slate-700 {
+    color: var(--body-color) !important;
+}
+
+/* Hero: Navy to Dark Teal */
+.hero-bg-gradient {
+    background:
+        radial-gradient(
+            circle at 80% 25%,
+            rgba(16, 185, 129, 0.15),
+            transparent 38%
+        ),
+        linear-gradient(
+            135deg,
+            #0D1B2A 0%,
+            #0A3638 65%,
+            #064E3B 100%
+        );
+}
+
+/* Cards */
+.glass-card,
+.method-card,
+.evolution-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
+
+/* Paragraphs */
+p {
+    color: var(--body-color);
+}
+
+/* Primary buttons */
+button.bg-brand-600,
+button.bg-brand-700 {
+    background-color: var(--brand-teal);
+}
+
+button:hover {
+    transition: all 0.25s ease;
+}
+
+/* Teal and emerald accents */
+.section-label,
+.method-icon.cyan {
+    color: var(--emerald);
+}
+
+.cyan {
+    color: #34D399;
+    background: rgba(16, 185, 129, 0.12);
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.green,
+.after-badge {
+    color: #34D399;
+    background: rgba(16, 185, 129, 0.12);
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+/* Card hover */
+.method-card:hover,
+.evolution-card:hover,
+.glass-card:hover {
+    border-color: var(--emerald);
+    box-shadow: 0 12px 30px rgba(16, 185, 129, 0.10);
+}
+
+/* Mobile menu */
+#mobile-menu {
+    background: var(--page-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+.mobile-nav-link {
+    color: var(--body-color) !important;
+}
+
+/* Forms */
+input,
+textarea,
+select {
+    background: #102A35;
+    color: #F8FAFC;
+    border: 1px solid #31505A;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #94A3B8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-track {
+    background: #0D1B2A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #008B8B;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10B981;
+}
+
+/* Selection */
+::selection {
+    background: #008B8B;
+    color: #FFFFFF;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ===== WHITE CONTENT TEXT ON DARK THEME ===== */
+
+/* Main content text */
+body,
+main,
+.tab-content {
+    color: #FFFFFF;
+}
+
+/* All headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #FFFFFF !important;
+}
+
+/* Paragraphs and descriptive content */
+p,
+li,
+label,
+strong,
+small {
+    color: #FFFFFF;
+}
+
+/* Navbar text */
+#navbar .text-slate-900,
+#navbar .text-slate-600,
+#navbar .text-slate-700,
+.nav-link,
+.mobile-nav-link {
+    color: #FFFFFF !important;
+}
+
+/* Hero text */
+.hero-bg-gradient h1,
+.hero-bg-gradient h2,
+.hero-bg-gradient h3,
+.hero-bg-gradient p {
+    color: #FFFFFF;
+}
+
+/* Methodology and evolution sections */
+.methodology-section,
+.evolution-section,
+.method-card,
+.evolution-card {
+    color: #FFFFFF;
+}
+
+.method-card h3,
+.method-card p,
+.evolution-card h3,
+.evolution-card li {
+    color: #FFFFFF;
+}
+
+/* General text utilities */
+.text-slate-400,
+.text-slate-500,
+.text-slate-600,
+.text-slate-700,
+.text-gray-500,
+.text-gray-600,
+.text-gray-700 {
+    color: #FFFFFF !important;
+}
+
+/* Keep emerald and teal accents */
+.section-label {
+    color: #10B981 !important;
+}
+
+.after-badge,
+.after-outcome {
+    color: #10B981 !important;
+}
+
+/* Form text */
+input,
+textarea,
+select {
+    color: #FFFFFF;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #CBD5E1;
+}
+
+/* Links */
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #10B981;
+}
+
+/* ===== RESTORE ORIGINAL BOX LAYOUT ===== */
+
+
+/* ===== TEACHING METHODOLOGY: 4 SEPARATE ALIGNED BOXES ===== */
+
+.methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1450px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.method-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 24px;
+    background: #102A35;
+    border: 1px solid rgba(16, 185, 129, 0.22);
+    border-radius: 18px;
+    height: 100%;
+}
+
+.method-card .method-icon {
+    flex-shrink: 0;
+    margin-bottom: 18px;
+}
+
+.method-card h3 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    min-height: 50px;
+}
+
+.method-card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* ===== STUDENT SKILLS: 2 SEPARATE ALIGNED BOXES ===== */
+
+.evolution-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1350px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.evolution-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 28px;
+    background: #102A35;
+    border: 1px solid rgba(16, 185, 129, 0.22);
+    border-radius: 20px;
+}
+
+.evolution-card h3 {
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.evolution-card ul {
+    flex-grow: 1;
+}
+
+.evolution-card .outcome {
+    margin-top: auto;
+    padding-top: 16px;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 1000px) {
+    .methodology-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .method-card h3 {
+        min-height: 0;
+    }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+    .methodology-grid,
+    .evolution-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .method-card,
+    .evolution-card {
+        height: auto;
+        padding: 22px;
+    }
+}
+/* Before & After badges */
+.before-badge,
+.after-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.before-badge {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.after-badge {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+/* Bullet dots for both cards */
+.before-card ul,
+.after-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.before-card li,
+.after-card li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.before-card li::before,
+.after-card li::before {
+  content: "●";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  color: #10B981;
+  font-size: 12px;
+}
+
+/* Outcome text */
+.before-card .outcome,
+.after-card .outcome {
+  color: #10B981;
+  font-weight: 600;
+}
